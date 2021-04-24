@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <!--===== .277 SIG Fury =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_277SIGFury</defName>
+    <label>.277 SIG Fury bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <speed>60</speed>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+    </projectile>
+  </ThingDef>
+
+  <!--===== MCX SPEAR =====-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>GN_SPEARMCX</defName>
+    <label>SIG MCX Spear</label>
+    <description>The MCX Spear is a top of the line industrial battle rifle used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_SPEARMCX</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>GN_Interact_NGSW</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>30000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_277SIGFury</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>34</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>GN_Shot_68SIG</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories Inherit="False">
+      <li>GunNut</li>
+    </thingCategories>
+    <weaponTags Inherit="False">
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardMidFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+  <!--===== MCX SPEAR (custom) =====-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>GN_SPEARMCX_C</defName>
+    <label>SIG MCX Spear (custom)</label>
+    <description>The MCX Spear is a top of the line industrial battle rifle used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_SPEARMCX_C</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>GN_Interact_NGSW</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>35000</WorkToMake>
+      <Mass>3.6</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.75</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_277SIGFury</defaultProjectile>
+        <warmupTime>1.1</warmupTime>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>GN_Shot_SD_68SIG</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories Inherit="False">
+      <li>GunNut</li>
+    </thingCategories>
+    <weaponTags Inherit="False">
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardMidFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <equippedStatOffsets>
+      <HuntingStealth>0.25</HuntingStealth>
+    </equippedStatOffsets>
+  </ThingDef>
+
+  <!--===== MG 6.8 =====-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>GN_68MG</defName>
+    <label>SIG NGSW-AR</label>
+    <description>The NGSW-AR is a top of the line industrial squad automatic weapon used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_68MG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <soundInteract>GN_Interact_NGSW</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>35000</WorkToMake>
+      <Mass>8.5</Mass>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_277SIGFury</defaultProjectile>
+        <warmupTime>1.8</warmupTime>
+        <range>27</range>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>6</burstShotCount>
+        <soundCast>GN_Shot_68SIG</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories Inherit="False">
+      <li>GunNut</li>
+    </thingCategories>
+    <weaponTags Inherit="False">
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardMidFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+  <!--===== MG 6.8 (custom) =====-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>GN_68MG_C</defName>
+    <label>SIG NGSW-AR (custom)</label>
+    <description>The NGSW-AR is a top of the line industrial squad automatic weapon used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_68MG_C</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <soundInteract>GN_Interact_NGSW</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>8.6</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>85</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_277SIGFury</defaultProjectile>
+        <warmupTime>1.7</warmupTime>
+        <range>32</range>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>6</burstShotCount>
+        <soundCast>GN_Shot_SD_68SIG</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories Inherit="False">
+      <li>GunNut</li>
+    </thingCategories>
+    <weaponTags Inherit="False">
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardMidFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <equippedStatOffsets>
+      <HuntingStealth>0.25</HuntingStealth>
+    </equippedStatOffsets>
+  </ThingDef>
+
+  <!--===== .338 Norma Magnum =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_NormaMagnum</defName>
+    <label>.338 Norma Magnum bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>50</speed>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+      <stoppingPower>3</stoppingPower>
+    </projectile>
+  </ThingDef>
+
+  <!--===== MG 338 =====-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>GN_338MG</defName>
+    <label>SIG MG 338</label>
+    <description>The MG 338 is designed to bridge the gap between medium machine gun and heavy machine gun calibers making use of a bigger cartridge while being lighter than HMGs.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_338MG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <soundInteract>GN_Interact_NGSW</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>10</Mass>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>85</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_NormaMagnum</defaultProjectile>
+        <warmupTime>2.4</warmupTime>
+        <range>30</range>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>5</burstShotCount>
+        <soundCast>GN_Shot_338MG</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories Inherit="False">
+      <li>GunNut</li>
+    </thingCategories>
+    <weaponTags Inherit="False">
+      <li>IndustrialGunAdvanced</li>
+      <li>GunHeavy</li>
+    </weaponTags>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardMidFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+  <!--===== MG 338 (custom)=====-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>GN_338MG_C</defName>
+    <label>SIG MG 338 (custom)</label>
+    <description>The MG 338 is designed to bridge the gap between medium machine gun and heavy machine gun calibers making use of a bigger cartridge while being lighter than HMGs.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_338MG_C</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li>
+        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <soundInteract>GN_Interact_NGSW</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>10.1</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>95</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_NormaMagnum</defaultProjectile>
+        <warmupTime>2.3</warmupTime>
+        <range>35</range>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>5</burstShotCount>
+        <soundCast>GN_Shot_338MG</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories Inherit="False">
+      <li>GunNut</li>
+    </thingCategories>
+    <weaponTags Inherit="False">
+      <li>IndustrialGunAdvanced</li>
+      <li>GunHeavy</li>
+    </weaponTags>
+    <thingSetMakerTags Inherit="False">
+      <li>RewardStandardMidFreq</li>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+  </ThingDef>
+
+</Defs>
