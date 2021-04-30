@@ -142,7 +142,7 @@
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base277SIGFuryBullet">
         <defName>Bullet_277SIGFury_FMJ</defName>
-        <label>7.62mm NATO bullet (FMJ)</label>
+        <label>.277 SIG Fury bullet (FMJ)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageAmountBase>16</damageAmountBase>
             <armorPenetrationSharp>9</armorPenetrationSharp>
@@ -152,7 +152,7 @@
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base277SIGFuryBullet">
         <defName>Bullet_277SIGFury_AP</defName>
-        <label>7.62mm NATO bullet (AP)</label>
+        <label>.277 SIG Fury bullet (AP)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageAmountBase>10</damageAmountBase>
             <armorPenetrationSharp>16</armorPenetrationSharp>
@@ -162,7 +162,7 @@
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base277SIGFuryBullet">
         <defName>Bullet_277SIGFury_HP</defName>
-        <label>7.62mm NATO bullet (HP)</label>
+        <label>.277 SIG Fury bullet (HP)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageAmountBase>20</damageAmountBase>
             <armorPenetrationSharp>4</armorPenetrationSharp>
@@ -172,7 +172,7 @@
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base277SIGFuryBullet">
         <defName>Bullet_277SIGFury_Incendiary</defName>
-        <label>7.62mm NATO bullet (AP-I)</label>
+        <label>.277 SIG Fury bullet (AP-I)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageAmountBase>10</damageAmountBase>
             <armorPenetrationSharp>16</armorPenetrationSharp>
@@ -188,7 +188,7 @@
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base277SIGFuryBullet">
         <defName>Bullet_277SIGFury_HE</defName>
-        <label>7.62mm NATO bullet (HE)</label>
+        <label>.277 SIG Fury bullet (HE)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageAmountBase>16</damageAmountBase>
             <armorPenetrationSharp>9</armorPenetrationSharp>
@@ -204,7 +204,7 @@
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="Base277SIGFuryBullet">
         <defName>Bullet_277SIGFury_Sabot</defName>
-        <label>7.62mm NATO bullet (Sabot)</label>
+        <label>.277 SIG Fury bullet (Sabot)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageAmountBase>8</damageAmountBase>
             <armorPenetrationSharp>29</armorPenetrationSharp>
