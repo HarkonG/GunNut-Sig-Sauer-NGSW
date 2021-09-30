@@ -3,7 +3,7 @@
 <Defs>
 
     <SoundDef>
-        <defName>GN_Shot_68SIG</defName>
+        <defName>HRK_Shot_68SIG</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -11,7 +11,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_68SIG</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_68SIG</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -28,7 +28,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_SD_68SIG</defName>
+        <defName>HRK_Shot_SD_68SIG</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -36,7 +36,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_SD_68SIG</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_SD_68SIG</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -53,7 +53,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Shot_338MG</defName>
+        <defName>HRK_Shot_338MG</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -61,7 +61,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Shot_338MG</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_338MG</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -78,7 +78,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>GN_Interact_NGSW</defName>
+        <defName>HRK_Interact_NGSW</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -86,7 +86,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/GN_Interact_NGSW</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Interact_NGSW</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>

@@ -4,7 +4,7 @@
 
   <!--===== .277 SIG Fury =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_277SIGFury</defName>
+    <defName>HRK_Bullet_277SIGFury</defName>
     <label>.277 SIG Fury bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -20,16 +20,16 @@
   </ThingDef>
 
   <!--===== MCX SPEAR =====-->
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_SPEARMCX</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_SPEARMCX</defName>
     <label>SIG MCX Spear</label>
     <description>The MCX Spear is a top of the line industrial battle rifle used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_SPEARMCX</texPath>
+      <texPath>Things/Weapons/HRK_SPEARMCX</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>GN_Interact_NGSW</soundInteract>
+    <soundInteract>HRK_Interact_NGSW</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -56,12 +56,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_277SIGFury</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_277SIGFury</defaultProjectile>
         <warmupTime>1.2</warmupTime>
         <range>30</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_68SIG</soundCast>
+        <soundCast>HRK_Shot_68SIG</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -84,35 +84,28 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
-    </tools>
-    <thingCategories Inherit="False">
-      <li>GunNut</li>
-    </thingCategories>
-    <weaponTags Inherit="False">
+    </tools>    
+    <weaponTags>
       <li>IndustrialGunAdvanced</li>
-    </weaponTags>
-    <thingSetMakerTags Inherit="False">
-      <li>RewardStandardMidFreq</li>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
+    </weaponTags>    
   </ThingDef>
 
   <!--===== MCX SPEAR (custom) =====-->
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_SPEARMCX_C</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_SPEARMCX_C</defName>
     <label>SIG MCX Spear (custom)</label>
     <description>The MCX Spear is a top of the line industrial battle rifle used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_SPEARMCX_C</texPath>
+      <texPath>Things/Weapons/HRK_SPEARMCX_C</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>GN_Interact_NGSW</soundInteract>
+    <soundInteract>HRK_Interact_NGSW</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -134,12 +127,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_277SIGFury</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_277SIGFury</defaultProjectile>
         <warmupTime>1.1</warmupTime>
         <range>35</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>GN_Shot_SD_68SIG</soundCast>
+        <soundCast>HRK_Shot_SD_68SIG</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -162,29 +155,22 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
-    </tools>
-    <thingCategories Inherit="False">
-      <li>GunNut</li>
-    </thingCategories>
-    <weaponTags Inherit="False">
+    </tools>    
+    <weaponTags>
       <li>IndustrialGunAdvanced</li>
-    </weaponTags>
-    <thingSetMakerTags Inherit="False">
-      <li>RewardStandardMidFreq</li>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
+    </weaponTags>    
     <equippedStatOffsets>
       <HuntingStealth>0.15</HuntingStealth>
     </equippedStatOffsets>
   </ThingDef>
 
   <!--===== MG 6.8 =====-->
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_68MG</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_68MG</defName>
     <label>SIG NGSW-AR</label>
     <description>The NGSW-AR is a top of the line industrial squad automatic weapon used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_68MG</texPath>
+      <texPath>Things/Weapons/HRK_68MG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
@@ -194,7 +180,7 @@
         <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
       </li>
     </comps>
-    <soundInteract>GN_Interact_NGSW</soundInteract>
+    <soundInteract>HRK_Interact_NGSW</soundInteract>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
@@ -218,12 +204,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_277SIGFury</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_277SIGFury</defaultProjectile>
         <warmupTime>1.8</warmupTime>
         <range>27</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
-        <soundCast>GN_Shot_68SIG</soundCast>
+        <soundCast>HRK_Shot_68SIG</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -246,26 +232,19 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
-    </tools>
-    <thingCategories Inherit="False">
-      <li>GunNut</li>
-    </thingCategories>
-    <weaponTags Inherit="False">
+    </tools>    
+    <weaponTags>
       <li>IndustrialGunAdvanced</li>
-    </weaponTags>
-    <thingSetMakerTags Inherit="False">
-      <li>RewardStandardMidFreq</li>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
+    </weaponTags>    
   </ThingDef>
 
   <!--===== MG 6.8 (custom) =====-->
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_68MG_C</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_68MG_C</defName>
     <label>SIG NGSW-AR (custom)</label>
     <description>The NGSW-AR is a top of the line industrial squad automatic weapon used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_68MG_C</texPath>
+      <texPath>Things/Weapons/HRK_68MG_C</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
@@ -275,9 +254,9 @@
         <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
       </li>
     </comps>
-    <soundInteract>GN_Interact_NGSW</soundInteract>
+    <soundInteract>HRK_Interact_NGSW</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -299,12 +278,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_277SIGFury</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_277SIGFury</defaultProjectile>
         <warmupTime>1.7</warmupTime>
         <range>32</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
-        <soundCast>GN_Shot_SD_68SIG</soundCast>
+        <soundCast>HRK_Shot_SD_68SIG</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -327,17 +306,10 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
-    </tools>
-    <thingCategories Inherit="False">
-      <li>GunNut</li>
-    </thingCategories>
-    <weaponTags Inherit="False">
+    </tools>    
+    <weaponTags>
       <li>IndustrialGunAdvanced</li>
-    </weaponTags>
-    <thingSetMakerTags Inherit="False">
-      <li>RewardStandardMidFreq</li>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
+    </weaponTags>    
     <equippedStatOffsets>
       <HuntingStealth>0.15</HuntingStealth>
     </equippedStatOffsets>
@@ -345,7 +317,7 @@
 
   <!--===== .338 Norma Magnum =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_NormaMagnum</defName>
+    <defName>HRK_Bullet_NormaMagnum</defName>
     <label>.338 Norma Magnum bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Big</texPath>
@@ -361,12 +333,12 @@
   </ThingDef>
 
   <!--===== MG 338 =====-->
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_338MG</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_338MG</defName>
     <label>SIG MG 338</label>
     <description>The MG 338 is designed to bridge the gap between medium machine gun and heavy machine gun calibers making use of a bigger cartridge while being lighter than other MG designs.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_338MG</texPath>
+      <texPath>Things/Weapons/HRK_338MG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
@@ -376,7 +348,7 @@
         <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
       </li>
     </comps>
-    <soundInteract>GN_Interact_NGSW</soundInteract>
+    <soundInteract>HRK_Interact_NGSW</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -403,12 +375,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_NormaMagnum</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_NormaMagnum</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>29</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <burstShotCount>5</burstShotCount>
-        <soundCast>GN_Shot_338MG</soundCast>
+        <soundCast>HRK_Shot_338MG</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
@@ -431,30 +403,22 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
-    </tools>
-    <thingCategories Inherit="False">
-      <li>GunNut</li>
-    </thingCategories>
-    <weaponTags Inherit="False">
-      <li>IndustrialGunAdvanced</li>
+    </tools>    
+    <weaponTags>      
       <li>GunHeavy</li>
-    </weaponTags>
-    <thingSetMakerTags Inherit="False">
-      <li>RewardStandardMidFreq</li>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
+    </weaponTags>    
     <equippedStatOffsets>
       <MoveSpeed>-0.20</MoveSpeed>      <!-- drawback -->
     </equippedStatOffsets>
   </ThingDef>
 
   <!--===== MG 338 (custom)=====-->
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_338MG_C</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_338MG_C</defName>
     <label>SIG MG 338 (custom)</label>
     <description>The MG 338 is designed to bridge the gap between medium machine gun and heavy machine gun calibers making use of a bigger cartridge while being lighter than HMGs.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_338MG_C</texPath>
+      <texPath>Things/Weapons/HRK_338MG_C</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
@@ -464,12 +428,12 @@
         <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
       </li>
     </comps>
-    <soundInteract>GN_Interact_NGSW</soundInteract>
+    <soundInteract>HRK_Interact_NGSW</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -491,12 +455,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_NormaMagnum</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_NormaMagnum</defaultProjectile>
         <warmupTime>2.3</warmupTime>
         <range>34</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <burstShotCount>5</burstShotCount>
-        <soundCast>GN_Shot_338MG</soundCast>
+        <soundCast>HRK_Shot_338MG</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
@@ -519,18 +483,10 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
-    </tools>
-    <thingCategories Inherit="False">
-      <li>GunNut</li>
-    </thingCategories>
-    <weaponTags Inherit="False">
-      <li>IndustrialGunAdvanced</li>
+    </tools>    
+    <weaponTags>      
       <li>GunHeavy</li>
-    </weaponTags>
-    <thingSetMakerTags Inherit="False">
-      <li>RewardStandardMidFreq</li>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
+    </weaponTags>    
     <equippedStatOffsets>
       <MoveSpeed>-0.15</MoveSpeed>      <!-- drawback -->
     </equippedStatOffsets>
