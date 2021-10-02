@@ -34,7 +34,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut_NGSW</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -105,7 +105,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut_NGSW_Custom</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -182,7 +182,7 @@
     </comps>
     <soundInteract>HRK_Interact_NGSW</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut_NGSW</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -256,7 +256,7 @@
     </comps>
     <soundInteract>HRK_Interact_NGSW</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut_NGSW_Custom</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -353,7 +353,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut_NGSW</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -433,7 +433,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut_NGSW_Custom</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
