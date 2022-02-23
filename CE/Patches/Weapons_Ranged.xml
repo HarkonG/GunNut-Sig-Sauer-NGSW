@@ -195,6 +195,7 @@
                         <li>IndustrialGunAdvanced</li>
                         <li>CE_MachineGun</li>
                         <li>CE_AI_Suppressive</li>
+                        <li>Bipod_SAW</li>
                     </weaponTags>
                 </li>
 
@@ -246,6 +247,7 @@
                         <li>IndustrialGunAdvanced</li>
                         <li>CE_MachineGun</li>
                         <li>CE_AI_Suppressive</li>
+                        <li>Bipod_SAW</li>
                     </weaponTags>
                 </li>
 
@@ -297,6 +299,7 @@
                         <li>IndustrialGunAdvanced</li>
                         <li>GunHeavy</li>
                         <li>CE_MachineGun</li>
+                        <li>Bipod_LMG</li>
                     </weaponTags>
                 </li>
 
@@ -348,6 +351,7 @@
                         <li>IndustrialGunAdvanced</li>
                         <li>GunHeavy</li>
                         <li>CE_MachineGun</li>
+                        <li>Bipod_LMG</li>
                     </weaponTags>
                 </li>
 
