@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingStyleDef>
+        <defName>HRK_SPEARMCX_BlackCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_SPEARMCX</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_SPEARMCX_C_BlackCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_SPEARMCX_C_BlackC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+
+    <ThingStyleDef>
+        <defName>HRK_68MG_BlackCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_68MG_BlackC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_68MG_C_BlackCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_68MG_C_BlackC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+
+    <ThingStyleDef>
+        <defName>HRK_338MG_BlackCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_338MG_BlackC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_338MG_C_BlackCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_338MG_C_BlackC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+
+    <ThingStyleDef>
+        <defName>HRK_SPEARMCX_DesertCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_SPEARMCX</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_SPEARMCX_C_DesertCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_SPEARMCX_C_DesertC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+
+    <ThingStyleDef>
+        <defName>HRK_68MG_DesertCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_68MG_DesertC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_68MG_C_DesertCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_68MG_C_DesertC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+
+    <ThingStyleDef>
+        <defName>HRK_338MG_DesertCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_338MG_DesertC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_338MG_C_DesertCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_338MG_C_DesertC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+
+    <ThingStyleDef>
+        <defName>HRK_SPEARMCX_WinterCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_SPEARMCX</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_SPEARMCX_C_WinterCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_SPEARMCX_C_WinterC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+
+    <ThingStyleDef>
+        <defName>HRK_68MG_WinterCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_68MG_WinterC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_68MG_C_WinterCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_68MG_C_WinterC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+
+    <ThingStyleDef>
+        <defName>HRK_338MG_WinterCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_338MG_WinterC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_338MG_C_WinterCamo</defName>
+        <graphicData>
+            <texPath>Things/Weapons/HRK_338MG_C_WinterC</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+    </ThingStyleDef>
+
+</Defs>

@@ -19,11 +19,11 @@
     </projectile>
   </ThingDef>
 
-  <!--===== MCX SPEAR =====-->
+  <!--===== SIG M5 SPEAR =====-->
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_SPEARMCX</defName>
-    <label>SIG MCX Spear</label>
-    <description>The MCX Spear is a top of the line industrial battle rifle used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
+    <label>SIG M5 SPEAR</label>
+    <description>The SIG M5 SPEAR is a top of the line industrial battle rifle used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_SPEARMCX</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -84,17 +84,20 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
-    </tools>    
+    </tools>
+    <comps>
+      <li Class="CompProperties_Styleable" />
+    </comps>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-    </weaponTags>    
+    </weaponTags>
   </ThingDef>
 
-  <!--===== MCX SPEAR (custom) =====-->
+  <!--===== SIG M5 SPEAR (custom) =====-->
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_SPEARMCX_C</defName>
-    <label>SIG MCX Spear (custom)</label>
-    <description>The MCX Spear is a top of the line industrial battle rifle used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
+    <label>SIG M5 SPEAR (custom)</label>
+    <description>The SIG M5 SPEAR is a top of the line industrial battle rifle used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_SPEARMCX_C</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -155,20 +158,23 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
-    </tools>    
+    </tools>
+    <comps>
+      <li Class="CompProperties_Styleable" />
+    </comps>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-    </weaponTags>    
+    </weaponTags>
     <equippedStatOffsets>
       <HuntingStealth>0.15</HuntingStealth>
     </equippedStatOffsets>
   </ThingDef>
 
-  <!--===== MG 6.8 =====-->
+  <!--===== SIG M250 =====-->
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_68MG</defName>
-    <label>SIG NGSW-AR</label>
-    <description>The NGSW-AR is a top of the line industrial squad automatic weapon used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
+    <label>SIG M250</label>
+    <description>The SIG M250 is a top of the line industrial squad automatic weapon used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_68MG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -176,6 +182,7 @@
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
+      <li Class="CompProperties_Styleable" />
       <li>
         <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
       </li>
@@ -232,17 +239,17 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
-    </tools>    
+    </tools>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-    </weaponTags>    
+    </weaponTags>
   </ThingDef>
 
-  <!--===== MG 6.8 (custom) =====-->
+  <!--===== SIG M250 (custom) =====-->
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_68MG_C</defName>
-    <label>SIG NGSW-AR (custom)</label>
-    <description>The NGSW-AR is a top of the line industrial squad automatic weapon used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
+    <label>SIG M250 (custom)</label>
+    <description>The SIG M250 is a top of the line industrial squad automatic weapon used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_68MG_C</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -250,6 +257,7 @@
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
+      <li Class="CompProperties_Styleable" />
       <li>
         <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
       </li>
@@ -306,10 +314,10 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
-    </tools>    
+    </tools>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
-    </weaponTags>    
+    </weaponTags>
     <equippedStatOffsets>
       <HuntingStealth>0.15</HuntingStealth>
     </equippedStatOffsets>
@@ -332,7 +340,7 @@
     </projectile>
   </ThingDef>
 
-  <!--===== MG 338 =====-->
+  <!--===== SIG MG 338 =====-->
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_338MG</defName>
     <label>SIG MG 338</label>
@@ -340,10 +348,11 @@
     <graphicData>
       <texPath>Things/Weapons/HRK_338MG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.1</drawSize>
+      <drawSize>1.25</drawSize>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
+      <li Class="CompProperties_Styleable" />
       <li>
         <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
       </li>
@@ -403,16 +412,16 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
-    </tools>    
-    <weaponTags>      
+    </tools>
+    <weaponTags>
       <li>GunHeavy</li>
-    </weaponTags>    
+    </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.20</MoveSpeed>      <!-- drawback -->
     </equippedStatOffsets>
   </ThingDef>
 
-  <!--===== MG 338 (custom)=====-->
+  <!--===== SIG MG 338 (custom)=====-->
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_338MG_C</defName>
     <label>SIG MG 338 (custom)</label>
@@ -420,10 +429,11 @@
     <graphicData>
       <texPath>Things/Weapons/HRK_338MG_C</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.1</drawSize>
+      <drawSize>1.25</drawSize>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <comps>
+      <li Class="CompProperties_Styleable" />
       <li>
         <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
       </li>
@@ -483,12 +493,13 @@
         <power>9</power>
         <cooldownTime>2</cooldownTime>
       </li>
-    </tools>    
-    <weaponTags>      
+    </tools>
+    <weaponTags>
       <li>GunHeavy</li>
-    </weaponTags>    
+    </weaponTags>
     <equippedStatOffsets>
       <MoveSpeed>-0.15</MoveSpeed>      <!-- drawback -->
+      <HuntingStealth>0.15</HuntingStealth>
     </equippedStatOffsets>
   </ThingDef>
 

@@ -355,13 +355,10 @@
                     </weaponTags>
                 </li>
 
-                <li Class="PatchOperationReplace">
-                    <xpath>/Defs/ThingDef[defName="HRK_338MG" or defName="HRK_338MG_C"]/equippedStatOffsets</xpath>
-                    <value>
-                        <equippedStatOffsets>
-                        </equippedStatOffsets>
-                    </value>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="HRK_338MG" or defName="HRK_338MG_C"]/equippedStatOffsets/MoveSpeed</xpath>
                 </li>
+
             </operations>
         </match>
     </Operation>

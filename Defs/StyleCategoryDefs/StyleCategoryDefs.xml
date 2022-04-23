@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--Black camouflage-->
+	<StyleCategoryDef>
+		<defName>HRK_StyleCat_BlackCamo</defName>
+		<label>camouflage (black)</label>
+		<iconPath>UI/StyleCategories/HRK_ThingStyle_BlackCamo</iconPath>
+		<thingDefStyles>
+			<li>
+				<thingDef>HRK_SPEARMCX</thingDef>
+				<styleDef>HRK_SPEARMCX_BlackCamo</styleDef>
+			</li>
+			<li>
+				<thingDef>HRK_SPEARMCX_C</thingDef>
+				<styleDef>HRK_SPEARMCX_C_BlackCamo</styleDef>
+			</li>
+
+			<li>
+				<thingDef>HRK_68MG</thingDef>
+				<styleDef>HRK_68MG_BlackCamo</styleDef>
+			</li>
+			<li>
+				<thingDef>HRK_68MG_C</thingDef>
+				<styleDef>HRK_68MG_C_BlackCamo</styleDef>
+			</li>
+
+			<li>
+				<thingDef>HRK_338MG</thingDef>
+				<styleDef>HRK_338MG_BlackCamo</styleDef>
+			</li>
+			<li>
+				<thingDef>HRK_338MG_C</thingDef>
+				<styleDef>HRK_338MG_C_BlackCamo</styleDef>
+			</li>
+		</thingDefStyles>
+	</StyleCategoryDef>
+
+	<!--Desert camouflage -->
+	<StyleCategoryDef>
+		<defName>HRK_StyleCat_DesertCamo</defName>
+		<label>camouflage (desert)</label>
+		<iconPath>UI/StyleCategories/HRK_ThingStyle_DesertCamo</iconPath>
+		<thingDefStyles>
+			<li>
+				<thingDef>HRK_SPEARMCX</thingDef>
+				<styleDef>HRK_SPEARMCX_DesertCamo</styleDef>
+			</li>
+			<li>
+				<thingDef>HRK_SPEARMCX_C</thingDef>
+				<styleDef>HRK_SPEARMCX_C_DesertCamo</styleDef>
+			</li>
+
+			<li>
+				<thingDef>HRK_68MG</thingDef>
+				<styleDef>HRK_68MG_DesertCamo</styleDef>
+			</li>
+			<li>
+				<thingDef>HRK_68MG_C</thingDef>
+				<styleDef>HRK_68MG_C_DesertCamo</styleDef>
+			</li>
+
+			<li>
+				<thingDef>HRK_338MG</thingDef>
+				<styleDef>HRK_338MG_DesertCamo</styleDef>
+			</li>
+			<li>
+				<thingDef>HRK_338MG_C</thingDef>
+				<styleDef>HRK_338MG_C_DesertCamo</styleDef>
+			</li>
+		</thingDefStyles>
+	</StyleCategoryDef>
+
+	<!--Winter camouflage-->
+	<StyleCategoryDef>
+		<defName>HRK_StyleCat_WinterCamo</defName>
+		<label>camouflage (winter)</label>
+		<iconPath>UI/StyleCategories/HRK_ThingStyle_WinterCamo</iconPath>
+		<thingDefStyles>
+			<li>
+				<thingDef>HRK_SPEARMCX</thingDef>
+				<styleDef>HRK_SPEARMCX_WinterCamo</styleDef>
+			</li>
+			<li>
+				<thingDef>HRK_SPEARMCX_C</thingDef>
+				<styleDef>HRK_SPEARMCX_C_WinterCamo</styleDef>
+			</li>
+
+			<li>
+				<thingDef>HRK_68MG</thingDef>
+				<styleDef>HRK_68MG_WinterCamo</styleDef>
+			</li>
+			<li>
+				<thingDef>HRK_68MG_C</thingDef>
+				<styleDef>HRK_68MG_C_WinterCamo</styleDef>
+			</li>
+
+			<li>
+				<thingDef>HRK_338MG</thingDef>
+				<styleDef>HRK_338MG_WinterCamo</styleDef>
+			</li>
+			<li>
+				<thingDef>HRK_338MG_C</thingDef>
+				<styleDef>HRK_338MG_C_WinterCamo</styleDef>
+			</li>
+		</thingDefStyles>
+	</StyleCategoryDef>
+
+</Defs>
