@@ -2,8 +2,8 @@
 <Defs>
 
     <ThingCategoryDef>
-        <defName>Ammo277SIGFury</defName>
-        <label>.277 SIG Fury</label>
+        <defName>Ammo277Fury</defName>
+        <label>.277 Fury</label>
         <parent>AmmoRifles</parent>
         <iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
     </ThingCategoryDef>
@@ -11,24 +11,25 @@
     <!-- ==================== AmmoSet ========================== -->
 
     <CombatExtended.AmmoSetDef>
-        <defName>AmmoSet_277SIGFury</defName>
-        <label>.277 SIG Fury</label>
+        <defName>AmmoSet_277Fury</defName>
+        <label>.277 Fury</label>
         <ammoTypes>
-            <Ammo_277SIGFury_FMJ>Bullet_277SIGFury_FMJ</Ammo_277SIGFury_FMJ>
-            <Ammo_277SIGFury_AP>Bullet_277SIGFury_AP</Ammo_277SIGFury_AP>
-            <Ammo_277SIGFury_HP>Bullet_277SIGFury_HP</Ammo_277SIGFury_HP>
-            <Ammo_277SIGFury_Incendiary>Bullet_277SIGFury_Incendiary</Ammo_277SIGFury_Incendiary>
-            <Ammo_277SIGFury_HE>Bullet_277SIGFury_HE</Ammo_277SIGFury_HE>
-            <Ammo_277SIGFury_Sabot>Bullet_277SIGFury_Sabot</Ammo_277SIGFury_Sabot>
+            <Ammo_277Fury_FMJ>Bullet_277Fury_FMJ</Ammo_277Fury_FMJ>
+            <Ammo_277Fury_AP>Bullet_277Fury_AP</Ammo_277Fury_AP>
+            <Ammo_277Fury_HP>Bullet_277Fury_HP</Ammo_277Fury_HP>
+            <Ammo_277Fury_Incendiary>Bullet_277Fury_Incendiary</Ammo_277Fury_Incendiary>
+            <Ammo_277Fury_HE>Bullet_277Fury_HE</Ammo_277Fury_HE>
+            <Ammo_277Fury_Sabot>Bullet_277Fury_Sabot</Ammo_277Fury_Sabot>
         </ammoTypes>
+        <similarTo>AmmoSet_Rifle</similarTo>
     </CombatExtended.AmmoSetDef>
 
     <!-- ==================== Ammo ========================== -->
 
-    <ThingDef Class="CombatExtended.AmmoDef" Name="277SIGFuryBase" ParentName="SmallAmmoBase" Abstract="True">
-        <description>Next-Gen rifle bullet used in machine guns, sniper rifles and the occasional assault rifle.</description>
+    <ThingDef Class="CombatExtended.AmmoDef" Name="277FuryBase" ParentName="SmallAmmoBase" Abstract="True">
+        <description>Small, high-velocity rifle bullet used in a variety of assault rifles.</description>
         <statBases>
-            <Mass>0.025</Mass>
+            <Mass>0.024</Mass>
             <Bulk>0.03</Bulk>
         </statBases>
         <tradeTags>
@@ -36,13 +37,13 @@
             <li>CE_AutoEnableCrafting</li>
         </tradeTags>
         <thingCategories>
-            <li>Ammo277SIGFury</li>
+            <li>Ammo277Fury</li>
         </thingCategories>
     </ThingDef>
 
-    <ThingDef Class="CombatExtended.AmmoDef" ParentName="277SIGFuryBase">
-        <defName>Ammo_277SIGFury_FMJ</defName>
-        <label>.277 SIG Fury cartridge (FMJ)</label>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="277FuryBase">
+        <defName>Ammo_277Fury_FMJ</defName>
+        <label>.277 Fury cartridge (FMJ)</label>
         <graphicData>
             <texPath>Things/Ammo/Rifle/FMJ</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -51,12 +52,12 @@
             <MarketValue>0.11</MarketValue>
         </statBases>
         <ammoClass>FullMetalJacket</ammoClass>
-        <cookOffProjectile>Bullet_277SIGFury_FMJ</cookOffProjectile>
+        <cookOffProjectile>Bullet_277Fury_FMJ</cookOffProjectile>
     </ThingDef>
 
-    <ThingDef Class="CombatExtended.AmmoDef" ParentName="277SIGFuryBase">
-        <defName>Ammo_277SIGFury_AP</defName>
-        <label>.277 SIG Fury cartridge (AP)</label>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="277FuryBase">
+        <defName>Ammo_277Fury_AP</defName>
+        <label>.277 Fury cartridge (AP)</label>
         <graphicData>
             <texPath>Things/Ammo/Rifle/AP</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -65,12 +66,12 @@
             <MarketValue>0.11</MarketValue>
         </statBases>
         <ammoClass>ArmorPiercing</ammoClass>
-        <cookOffProjectile>Bullet_277SIGFury_AP</cookOffProjectile>
+        <cookOffProjectile>Bullet_277Fury_AP</cookOffProjectile>
     </ThingDef>
 
-    <ThingDef Class="CombatExtended.AmmoDef" ParentName="277SIGFuryBase">
-        <defName>Ammo_277SIGFury_HP</defName>
-        <label>.277 SIG Fury cartridge (HP)</label>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="277FuryBase">
+        <defName>Ammo_277Fury_HP</defName>
+        <label>.277 Fury cartridge (HP)</label>
         <graphicData>
             <texPath>Things/Ammo/Rifle/HP</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -79,12 +80,12 @@
             <MarketValue>0.11</MarketValue>
         </statBases>
         <ammoClass>HollowPoint</ammoClass>
-        <cookOffProjectile>Bullet_277SIGFury_HP</cookOffProjectile>
+        <cookOffProjectile>Bullet_277Fury_HP</cookOffProjectile>
     </ThingDef>
 
-    <ThingDef Class="CombatExtended.AmmoDef" ParentName="277SIGFuryBase">
-        <defName>Ammo_277SIGFury_Incendiary</defName>
-        <label>.277 SIG Fury cartridge (AP-I)</label>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="277FuryBase">
+        <defName>Ammo_277Fury_Incendiary</defName>
+        <label>.277 Fury cartridge (AP-I)</label>
         <graphicData>
             <texPath>Things/Ammo/Rifle/Incendiary</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -93,12 +94,12 @@
             <MarketValue>0.15</MarketValue>
         </statBases>
         <ammoClass>IncendiaryAP</ammoClass>
-        <cookOffProjectile>Bullet_277SIGFury_Incendiary</cookOffProjectile>
+        <cookOffProjectile>Bullet_277Fury_Incendiary</cookOffProjectile>
     </ThingDef>
 
-    <ThingDef Class="CombatExtended.AmmoDef" ParentName="277SIGFuryBase">
-        <defName>Ammo_277SIGFury_HE</defName>
-        <label>.277 SIG Fury cartridge (HE)</label>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="277FuryBase">
+        <defName>Ammo_277Fury_HE</defName>
+        <label>.277 Fury cartridge (HE)</label>
         <graphicData>
             <texPath>Things/Ammo/Rifle/HE</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -107,12 +108,12 @@
             <MarketValue>0.21</MarketValue>
         </statBases>
         <ammoClass>ExplosiveAP</ammoClass>
-        <cookOffProjectile>Bullet_277SIGFury_HE</cookOffProjectile>
+        <cookOffProjectile>Bullet_277Fury_HE</cookOffProjectile>
     </ThingDef>
 
-    <ThingDef Class="CombatExtended.AmmoDef" ParentName="277SIGFuryBase">
-        <defName>Ammo_277SIGFury_Sabot</defName>
-        <label>.277 SIG Fury cartridge (Sabot)</label>
+    <ThingDef Class="CombatExtended.AmmoDef" ParentName="277FuryBase">
+        <defName>Ammo_277Fury_Sabot</defName>
+        <label>.277 Fury cartridge (Sabot)</label>
         <graphicData>
             <texPath>Things/Ammo/Rifle/Sabot</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
@@ -122,103 +123,103 @@
             <Mass>0.02</Mass>
         </statBases>
         <ammoClass>Sabot</ammoClass>
-        <cookOffProjectile>Bullet_277SIGFury_Sabot</cookOffProjectile>
+        <cookOffProjectile>Bullet_277Fury_Sabot</cookOffProjectile>
     </ThingDef>
 
     <!-- ================== Projectiles ================== -->
 
-    <ThingDef Name="Base277SIGFuryBullet" ParentName="BaseBullet" Abstract="true">
+    <ThingDef Name="Base277FuryBullet" ParentName="BaseBullet" Abstract="true">
         <graphicData>
             <texPath>Things/Projectile/Bullet_Small</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
             <damageDef>Bullet</damageDef>
-            <speed>176</speed>
+            <speed>183</speed>
             <dropsCasings>true</dropsCasings>
-        </projectile>        
-    </ThingDef>
-
-    <ThingDef ParentName="Base277SIGFuryBullet">
-        <defName>Bullet_277SIGFury_FMJ</defName>
-        <label>.277 SIG Fury bullet (FMJ)</label>
-        <projectile Class="CombatExtended.ProjectilePropertiesCE">
-            <damageAmountBase>16</damageAmountBase>
-            <armorPenetrationSharp>9</armorPenetrationSharp>
-            <armorPenetrationBlunt>50.0</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="Base277SIGFuryBullet">
-        <defName>Bullet_277SIGFury_AP</defName>
-        <label>.277 SIG Fury bullet (AP)</label>
+    <ThingDef ParentName="Base277FuryBullet">
+        <defName>Bullet_277Fury_FMJ</defName>
+        <label>.277 Fury bullet (FMJ)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
-            <damageAmountBase>10</damageAmountBase>
+            <damageAmountBase>19</damageAmountBase>
+            <armorPenetrationSharp>8</armorPenetrationSharp>
+            <armorPenetrationBlunt>73.1</armorPenetrationBlunt>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="Base277FuryBullet">
+        <defName>Bullet_277Fury_AP</defName>
+        <label>.277 Fury bullet (AP)</label>
+        <projectile Class="CombatExtended.ProjectilePropertiesCE">
+            <damageAmountBase>12</damageAmountBase>
             <armorPenetrationSharp>16</armorPenetrationSharp>
-            <armorPenetrationBlunt>50.0</armorPenetrationBlunt>
+            <armorPenetrationBlunt>73.1</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="Base277SIGFuryBullet">
-        <defName>Bullet_277SIGFury_HP</defName>
-        <label>.277 SIG Fury bullet (HP)</label>
+    <ThingDef ParentName="Base277FuryBullet">
+        <defName>Bullet_277Fury_HP</defName>
+        <label>.277 Fury bullet (HP)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
-            <damageAmountBase>20</damageAmountBase>
+            <damageAmountBase>25</damageAmountBase>
             <armorPenetrationSharp>4</armorPenetrationSharp>
-            <armorPenetrationBlunt>50.0</armorPenetrationBlunt>
+            <armorPenetrationBlunt>73.1</armorPenetrationBlunt>
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="Base277SIGFuryBullet">
-        <defName>Bullet_277SIGFury_Incendiary</defName>
-        <label>.277 SIG Fury bullet (AP-I)</label>
+    <ThingDef ParentName="Base277FuryBullet">
+        <defName>Bullet_277Fury_Incendiary</defName>
+        <label>.277 Fury bullet (AP-I)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
-            <damageAmountBase>10</damageAmountBase>
+            <damageAmountBase>12</damageAmountBase>
             <armorPenetrationSharp>16</armorPenetrationSharp>
-            <armorPenetrationBlunt>50.0</armorPenetrationBlunt>
+            <armorPenetrationBlunt>73.1</armorPenetrationBlunt>
             <secondaryDamage>
                 <li>
                     <def>Flame_Secondary</def>
-                    <amount>6</amount>
+                    <amount>8</amount>
                 </li>
             </secondaryDamage>
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="Base277SIGFuryBullet">
-        <defName>Bullet_277SIGFury_HE</defName>
-        <label>.277 SIG Fury bullet (HE)</label>
+    <ThingDef ParentName="Base277FuryBullet">
+        <defName>Bullet_277Fury_HE</defName>
+        <label>.277 Fury bullet (HE)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
-            <damageAmountBase>16</damageAmountBase>
-            <armorPenetrationSharp>9</armorPenetrationSharp>
-            <armorPenetrationBlunt>50.0</armorPenetrationBlunt>
+            <damageAmountBase>19</damageAmountBase>
+            <armorPenetrationSharp>8</armorPenetrationSharp>
+            <armorPenetrationBlunt>73.1</armorPenetrationBlunt>
             <secondaryDamage>
                 <li>
                     <def>Bomb_Secondary</def>
-                    <amount>10</amount>
+                    <amount>12</amount>
                 </li>
             </secondaryDamage>
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="Base277SIGFuryBullet">
-        <defName>Bullet_277SIGFury_Sabot</defName>
-        <label>.277 SIG Fury bullet (Sabot)</label>
+    <ThingDef ParentName="Base277FuryBullet">
+        <defName>Bullet_277Fury_Sabot</defName>
+        <label>.277 Fury bullet (Sabot)</label>
         <projectile Class="CombatExtended.ProjectilePropertiesCE">
-            <damageAmountBase>8</damageAmountBase>
-            <armorPenetrationSharp>29</armorPenetrationSharp>
-            <armorPenetrationBlunt>65.0</armorPenetrationBlunt>
-            <speed>200</speed>
+            <damageAmountBase>10</damageAmountBase>
+            <armorPenetrationSharp>28</armorPenetrationSharp>
+            <armorPenetrationBlunt>97.36</armorPenetrationBlunt>
+            <speed>275</speed>
         </projectile>
     </ThingDef>
 
     <!-- ==================== Recipes ========================== -->
 
     <RecipeDef ParentName="AmmoRecipeBase">
-        <defName>MakeAmmo_277SIGFury_FMJ</defName>
-        <label>make .277 SIG Fury (FMJ) cartridge x500</label>
-        <description>Craft 500 .277 SIG Fury (FMJ) cartridges.</description>
-        <jobString>Making .277 SIG Fury (FMJ) cartridges.</jobString>
+        <defName>MakeAmmo_277Fury_FMJ</defName>
+        <label>make .277 Fury (FMJ) cartridge x500</label>
+        <description>Craft 500 .277 Fury (FMJ) cartridges.</description>
+        <jobString>Making .277 Fury (FMJ) cartridges.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -226,7 +227,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>26</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -235,16 +236,16 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <Ammo_277SIGFury_FMJ>500</Ammo_277SIGFury_FMJ>
+            <Ammo_277Fury_FMJ>500</Ammo_277Fury_FMJ>
         </products>
-        <workAmount>2000</workAmount>
+        <workAmount>2600</workAmount>
     </RecipeDef>
 
     <RecipeDef ParentName="AmmoRecipeBase">
-        <defName>MakeAmmo_277SIGFury_AP</defName>
-        <label>make .277 SIG Fury (AP) cartridge x500</label>
-        <description>Craft 500 .277 SIG Fury (AP) cartridges.</description>
-        <jobString>Making .277 SIG Fury (AP) cartridges.</jobString>
+        <defName>MakeAmmo_277Fury_AP</defName>
+        <label>make .277 Fury (AP) cartridge x500</label>
+        <description>Craft 500 .277 Fury (AP) cartridges.</description>
+        <jobString>Making .277 Fury (AP) cartridges.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -252,7 +253,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>26</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -261,16 +262,16 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <Ammo_277SIGFury_AP>500</Ammo_277SIGFury_AP>
+            <Ammo_277Fury_AP>500</Ammo_277Fury_AP>
         </products>
-        <workAmount>2000</workAmount>
+        <workAmount>2600</workAmount>
     </RecipeDef>
 
     <RecipeDef ParentName="AmmoRecipeBase">
-        <defName>MakeAmmo_277SIGFury_HP</defName>
-        <label>make .277 SIG Fury (HP) cartridge x500</label>
-        <description>Craft 500 .277 SIG Fury (HP) cartridges.</description>
-        <jobString>Making .277 SIG Fury (HP) cartridges.</jobString>
+        <defName>MakeAmmo_277Fury_HP</defName>
+        <label>make .277 Fury (HP) cartridge x500</label>
+        <description>Craft 500 .277 Fury (HP) cartridges.</description>
+        <jobString>Making .277 Fury (HP) cartridges.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -278,7 +279,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>26</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -287,16 +288,16 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <Ammo_277SIGFury_HP>500</Ammo_277SIGFury_HP>
+            <Ammo_277Fury_HP>500</Ammo_277Fury_HP>
         </products>
-        <workAmount>2000</workAmount>
+        <workAmount>2600</workAmount>
     </RecipeDef>
 
     <RecipeDef ParentName="AdvancedAmmoRecipeBase">
-        <defName>MakeAmmo_277SIGFury_Incendiary</defName>
-        <label>make .277 SIG Fury (AP-I) cartridge x500</label>
-        <description>Craft 500 .277 SIG Fury (AP-I) cartridges.</description>
-        <jobString>Making .277 SIG Fury (AP-I) cartridges.</jobString>
+        <defName>MakeAmmo_277Fury_Incendiary</defName>
+        <label>make .277 Fury (AP-I) cartridge x500</label>
+        <description>Craft 500 .277 Fury (AP-I) cartridges.</description>
+        <jobString>Making .277 Fury (AP-I) cartridges.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -304,7 +305,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>26</count>
             </li>
             <li>
                 <filter>
@@ -312,7 +313,7 @@
                         <li>Prometheum</li>
                     </thingDefs>
                 </filter>
-                <count>2</count>
+                <count>3</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -322,16 +323,16 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <Ammo_277SIGFury_Incendiary>500</Ammo_277SIGFury_Incendiary>
+            <Ammo_277Fury_Incendiary>500</Ammo_277Fury_Incendiary>
         </products>
-        <workAmount>3000</workAmount>
+        <workAmount>3800</workAmount>
     </RecipeDef>
 
     <RecipeDef ParentName="AdvancedAmmoRecipeBase">
-        <defName>MakeAmmo_277SIGFury_HE</defName>
-        <label>make .277 SIG Fury (HE) cartridge x500</label>
-        <description>Craft 500 .277 SIG Fury (HE) cartridges.</description>
-        <jobString>Making .277 SIG Fury (HE) cartridges.</jobString>
+        <defName>MakeAmmo_277Fury_HE</defName>
+        <label>make .277 Fury (HE) cartridge x500</label>
+        <description>Craft 500 .277 Fury (HE) cartridges.</description>
+        <jobString>Making .277 Fury (HE) cartridges.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -339,7 +340,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>26</count>
             </li>
             <li>
                 <filter>
@@ -347,7 +348,7 @@
                         <li>FSX</li>
                     </thingDefs>
                 </filter>
-                <count>4</count>
+                <count>5</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
@@ -357,16 +358,16 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <Ammo_277SIGFury_HE>500</Ammo_277SIGFury_HE>
+            <Ammo_277Fury_HE>500</Ammo_277Fury_HE>
         </products>
-        <workAmount>3800</workAmount>
+        <workAmount>4600</workAmount>
     </RecipeDef>
 
     <RecipeDef ParentName="AdvancedAmmoRecipeBase">
-        <defName>MakeAmmo_277SIGFury_Sabot</defName>
-        <label>make .277 SIG Fury (Sabot) cartridge x500</label>
-        <description>Craft 500 .277 SIG Fury (Sabot) cartridges.</description>
-        <jobString>Making .277 SIG Fury (Sabot) cartridges.</jobString>
+        <defName>MakeAmmo_277Fury_Sabot</defName>
+        <label>make .277 Fury (Sabot) cartridge x500</label>
+        <description>Craft 500 .277 Fury (Sabot) cartridges.</description>
+        <jobString>Making .277 Fury (Sabot) cartridges.</jobString>
         <ingredients>
             <li>
                 <filter>
@@ -374,7 +375,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>16</count>
             </li>
             <li>
                 <filter>
@@ -382,7 +383,7 @@
                         <li>Uranium</li>
                     </thingDefs>
                 </filter>
-                <count>2</count>
+                <count>3</count>
             </li>
             <li>
                 <filter>
@@ -401,9 +402,9 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <Ammo_277SIGFury_Sabot>500</Ammo_277SIGFury_Sabot>
+            <Ammo_277Fury_Sabot>500</Ammo_277Fury_Sabot>
         </products>
-        <workAmount>2700</workAmount>
+        <workAmount>3400</workAmount>
     </RecipeDef>
 
 </Defs>
