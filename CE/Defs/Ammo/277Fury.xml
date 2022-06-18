@@ -27,7 +27,7 @@
     <!-- ==================== Ammo ========================== -->
 
     <ThingDef Class="CombatExtended.AmmoDef" Name="277FuryBase" ParentName="SmallAmmoBase" Abstract="True">
-        <description>Small, high-velocity rifle bullet used in a variety of assault rifles.</description>
+        <description>A centerfire rimless bottlenecked rifle cartridge with a hybrid three-piece design to support high chamber pressures. Used in various rifles and machine guns.</description>
         <statBases>
             <Mass>0.024</Mass>
             <Bulk>0.03</Bulk>
