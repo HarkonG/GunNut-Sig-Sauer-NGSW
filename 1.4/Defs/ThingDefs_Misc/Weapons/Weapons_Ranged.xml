@@ -34,7 +34,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut_NGSW</researchPrerequisite>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -85,9 +85,6 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-    <comps>
-      <li Class="CompProperties_Styleable" />
-    </comps>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
@@ -108,7 +105,7 @@
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut_NGSW_Custom</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -159,9 +156,6 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-    <comps>
-      <li Class="CompProperties_Styleable" />
-    </comps>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
@@ -180,16 +174,10 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <comps>
-      <li Class="CompProperties_Styleable" />
-      <li>
-        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-      </li>
-    </comps>
+    <equippedAngleOffset>45</equippedAngleOffset>    
     <soundInteract>HRK_Interact_NGSW</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>HRK_Research_GunNut_NGSW</researchPrerequisite>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -255,16 +243,10 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <comps>
-      <li Class="CompProperties_Styleable" />
-      <li>
-        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-      </li>
-    </comps>
+    <equippedAngleOffset>45</equippedAngleOffset>    
     <soundInteract>HRK_Interact_NGSW</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>HRK_Research_GunNut_NGSW_Custom</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -351,18 +333,13 @@
       <drawSize>1.25</drawSize>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <comps>
-      <li Class="CompProperties_Styleable" />
-      <li>
-        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-      </li>
-    </comps>
+    
     <soundInteract>HRK_Interact_NGSW</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut_NGSW</researchPrerequisite>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -431,19 +408,13 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.25</drawSize>
     </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <comps>
-      <li Class="CompProperties_Styleable" />
-      <li>
-        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-      </li>
-    </comps>
+    <equippedAngleOffset>45</equippedAngleOffset>    
     <soundInteract>HRK_Interact_NGSW</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
       </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut_NGSW_Custom</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
