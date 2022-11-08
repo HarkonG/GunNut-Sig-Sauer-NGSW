@@ -2,7 +2,7 @@
 <Defs>
 
     <XmlExtensions.SettingsMenuDef>
-        <defName>HRK_settings_GunNutFNSCAR</defName>
+        <defName>HRK_settings_GunNutSIGSauerNGSW</defName>
         <modId>Harkon.GunNut.SIGSauerNGSW</modId>
         <label>Gun Nut - SIG Sauer NGSW</label>
         <settings>
