@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Advanced Industrial CE Guns Addon</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="Ex_M5_gun"]</xpath>
+                </li>
+
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="Ex_M250_gun"]</xpath>
+                </li>
+
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="Ex_MG338_gun"]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Sam's Power Creep Armory!</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>   
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="PCA_Gun_338MG"]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>
