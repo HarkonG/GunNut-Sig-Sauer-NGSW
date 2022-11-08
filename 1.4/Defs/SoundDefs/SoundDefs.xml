@@ -3,15 +3,15 @@
 <Defs>
 
     <SoundDef>
-        <defName>HRK_Shot_68SIG</defName>
+        <defName>HRK_Shot_SIGM5SPEAR</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_68SIG</clipPath>
+                        <clipPath>Weapons/HRK_Shot_SIGM5SPEAR</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -28,15 +28,15 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_SD_68SIG</defName>
+        <defName>HRK_Shot_SDSIGM5SPEAR</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_SD_68SIG</clipPath>
+                        <clipPath>Weapons/HRK_Shot_SDSIGM5SPEAR</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -53,15 +53,15 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_338MG</defName>
+        <defName>HRK_Shot_SIG338MG</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_338MG</clipPath>
+                        <clipPath>Weapons/HRK_Shot_SIG338MG</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -78,15 +78,15 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Interact_NGSW</defName>
+        <defName>HRK_Interact_SIGNGSW</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Interact_NGSW</clipPath>
+                        <clipPath>Weapons/HRK_Interact_SIGNGSW</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
