@@ -4,11 +4,11 @@
     <XmlExtensions.SettingsMenuDef>
         <defName>HRK_settings_GunNutFNSCAR</defName>
         <modId>Harkon.GunNut.SIGSauerNGSW</modId>
-        <label>Gun Nut - M5 SPEAR, M250, MG 338</label>
+        <label>Gun Nut - SIG Sauer NGSW</label>
         <settings>
 
             <li Class="XmlExtensions.Setting.Text">
-                <text>Gun Nut - M5 SPEAR, M250, MG 338</text>
+                <text>Gun Nut - SIG Sauer NGSW</text>
                 <font>Medium</font>
                 <anchor>Middle</anchor>
             </li>
