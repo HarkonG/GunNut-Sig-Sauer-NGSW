@@ -24,7 +24,7 @@
     <label>SIG M5 SPEAR</label>
     <description>The SIG M5 SPEAR is a top of the line industrial battle rifle used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_SIGM5SPEAR</texPath>
+      <texPath>Things/Weapons/HRK_SIGM5SPEAR/HRK_SIGM5SPEAR_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
@@ -95,7 +95,7 @@
     <label>SIG M5 SPEAR Rifleman</label>
     <description>The SIG M5 SPEAR is a top of the line industrial battle rifle used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_SIGM5SPEAR_C</texPath>
+      <texPath>Things/Weapons/HRK_SIGM5SPEAR_C/HRK_SIGM5SPEAR_C_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
@@ -185,7 +185,7 @@
     <label>SIG M250</label>
     <description>The SIG M250 is a top of the line industrial squad automatic weapon used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_SIGM250SAW</texPath>
+      <texPath>Things/Weapons/HRK_SIGM250SAW/HRK_SIGM250SAW_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
@@ -254,7 +254,7 @@
     <label>SIG M250 SAW</label>
     <description>The SIG M250 is a top of the line industrial squad automatic weapon used by operators and military personal for its reliability and performance. \n\nThis weapon is chambered in a cheaper unconventional cartridge that is more effective against armored targets.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_SIGM250SAW_C</texPath>
+      <texPath>Things/Weapons/HRK_SIGM250SAW_C/HRK_SIGM250SAW_C_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.1</drawSize>
     </graphicData>
@@ -342,7 +342,7 @@
     <label>SIG MG 338</label>
     <description>The MG 338 is designed to bridge the gap between medium machine gun and heavy machine gun calibers making use of a bigger cartridge while being lighter than other MG designs.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_SIG338MG</texPath>
+      <texPath>Things/Weapons/HRK_SIG338MG/HRK_SIG338MG_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.25</drawSize>
     </graphicData>
@@ -417,7 +417,7 @@
     <label>SIG MG 338 Support </label>
     <description>The MG 338 is designed to bridge the gap between medium machine gun and heavy machine gun calibers making use of a bigger cartridge while being lighter than HMGs.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_SIG338MG_C</texPath>
+      <texPath>Things/Weapons/HRK_SIG338MG_C/HRK_SIG338MG_C_Tan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.25</drawSize>
     </graphicData>
