@@ -13,12 +13,12 @@
                 <li Class="PatchOperationReplace">
                     <xpath>
 				    /Defs/ThingDef[
-					defName = "HRK_SPEARMCX" or
-					defName = "HRK_SPEARMCX_C" or
-                    defName = "HRK_68MG" or
-					defName = "HRK_68MG_C" or
-                    defName = "HRK_338MG" or
-					defName = "HRK_338MG_C"]/tools
+					defName = "HRK_SIGM5SPEAR" or
+					defName = "HRK_SIGM5SPEAR_C" or
+                    defName = "HRK_SIGM250SAW" or
+					defName = "HRK_SIGM250SAW_C" or
+                    defName = "HRK_SIG338MG" or
+					defName = "HRK_SIG338MG_C"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -59,7 +59,7 @@
 
                 <!--===== MCX SPEAR =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>HRK_SPEARMCX</defName>
+                    <defName>HRK_SIGM5SPEAR</defName>
                     <statBases>
                         <WorkToMake>30000</WorkToMake>
                         <Mass>3.50</Mass>
@@ -82,7 +82,7 @@
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                         <warmupTime>1.1</warmupTime>
                         <range>50</range>
-                        <soundCast>HRK_Shot_68SIG</soundCast>
+                        <soundCast>HRK_Shot_SIGM5SPEAR</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>1.5</recoilAmount>
@@ -104,7 +104,7 @@
 
                 <!--===== MCX SPEAR (Custom) =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>HRK_SPEARMCX_C</defName>
+                    <defName>HRK_SIGM5SPEAR_C</defName>
                     <statBases>
                         <WorkToMake>35000</WorkToMake>
                         <Mass>3.50</Mass>
@@ -127,7 +127,7 @@
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                         <warmupTime>1.1</warmupTime>
                         <range>50</range>
-                        <soundCast>HRK_Shot_SD_68SIG</soundCast>
+                        <soundCast>HRK_Shot_SDSIGM5SPEAR</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>1.4</recoilAmount>
@@ -149,7 +149,7 @@
 
                 <!--===== MG 6.8 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>HRK_68MG</defName>
+                    <defName>HRK_SIGM250SAW</defName>
                     <statBases>
                         <WorkToMake>35000</WorkToMake>
                         <Mass>7.50</Mass>
@@ -172,7 +172,7 @@
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                         <warmupTime>1.3</warmupTime>
                         <range>62</range>
-                        <soundCast>HRK_Shot_68SIG</soundCast>
+                        <soundCast>HRK_Shot_SIGM5SPEAR</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>1.3</recoilAmount>
@@ -201,7 +201,7 @@
 
                 <!--===== MG 6.8 (Custom) =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>HRK_68MG_C</defName>
+                    <defName>HRK_SIGM250SAW_C</defName>
                     <statBases>
                         <WorkToMake>40000</WorkToMake>
                         <Mass>7.50</Mass>
@@ -224,7 +224,7 @@
                         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                         <warmupTime>1.3</warmupTime>
                         <range>62</range>
-                        <soundCast>HRK_Shot_SD_68SIG</soundCast>
+                        <soundCast>HRK_Shot_SDSIGM5SPEAR</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>1.2</recoilAmount>
@@ -253,7 +253,7 @@
 
                 <!--===== MG 338 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>HRK_338MG</defName>
+                    <defName>HRK_SIG338MG</defName>
                     <statBases>
                         <WorkToMake>40000</WorkToMake>
                         <Mass>8.30</Mass>
@@ -276,7 +276,7 @@
                         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
                         <warmupTime>1.3</warmupTime>
                         <range>65</range>
-                        <soundCast>HRK_Shot_338MG</soundCast>
+                        <soundCast>HRK_Shot_SIG338MG</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>2.2</recoilAmount>
@@ -305,7 +305,7 @@
 
                 <!--===== MG 338 (Custom)=====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>HRK_338MG_C</defName>
+                    <defName>HRK_SIG338MG_C</defName>
                     <statBases>
                         <WorkToMake>45000</WorkToMake>
                         <Mass>8.30</Mass>
@@ -328,7 +328,7 @@
                         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
                         <warmupTime>1.3</warmupTime>
                         <range>65</range>
-                        <soundCast>HRK_Shot_338MG</soundCast>
+                        <soundCast>HRK_Shot_SIG338MG</soundCast>
                         <soundCastTail>GunTail_Medium</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                         <recoilAmount>2.1</recoilAmount>
@@ -356,7 +356,7 @@
                 </li>
 
                 <li Class="PatchOperationRemove">
-                    <xpath>Defs/ThingDef[defName="HRK_338MG" or defName="HRK_338MG_C"]/equippedStatOffsets/MoveSpeed</xpath>
+                    <xpath>Defs/ThingDef[defName="HRK_SIG338MG" or defName="HRK_SIG338MG_C"]/equippedStatOffsets/MoveSpeed</xpath>
                 </li>
 
             </operations>
