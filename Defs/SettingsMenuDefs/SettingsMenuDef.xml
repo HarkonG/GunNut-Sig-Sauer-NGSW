@@ -46,7 +46,7 @@
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
                         <key>SIGM5SPEAR_Camo</key>
-                        <defaultValue>HRK_SIGM5SPEAR_Tan</defaultValue>
+                        <defaultValue>HRK_SIGM5SPEAR_Black</defaultValue>
                         <buttons>
                             <li>
                                 <value>HRK_SIGM5SPEAR_Black</value>
@@ -171,7 +171,7 @@
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
                         <key>SIGM250SAW_C_Camo</key>
-                        <defaultValue>HRK_SIGM250SAW_C_Black</defaultValue>
+                        <defaultValue>HRK_SIGM250SAW_C_Tan</defaultValue>
                         <buttons>
                             <li>
                                 <value>HRK_SIGM250SAW_C_Black</value>
@@ -202,14 +202,14 @@
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
                         <key>SIG338MG_C_Camo</key>
-                        <defaultValue>HRK_SIG338MG_C_Black</defaultValue>
+                        <defaultValue>HRK_SIG338MG_C_Tan</defaultValue>
                         <buttons>
                             <li>
                                 <value>HRK_SIG338MG_C_Black</value>
                                 <label>Black/Base</label>
                             </li>
                             <li>
-                                <value>HRK_SIG338MG_Tan</value>
+                                <value>HRK_SIG338MG_C_Tan</value>
                                 <label>Tan/Desert</label>
                             </li>
                             <li>
