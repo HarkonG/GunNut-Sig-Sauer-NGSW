@@ -25,10 +25,31 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
+            <li>Combat Extended Armory</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="CE_Gun_MGThreeThreeEight"]</xpath>
+                </li>
+
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="CE_Gun_MFive"]</xpath>
+                </li>
+
+                <li Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="CE_Gun_MTwoFifty"]</xpath>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
             <li>Sam's Power Creep Armory!</li>
         </mods>
         <match Class="PatchOperationSequence">
-            <operations>   
+            <operations>
                 <li Class="PatchOperationRemove">
                     <xpath>Defs/ThingDef[defName="PCA_Gun_338MG"]</xpath>
                 </li>
