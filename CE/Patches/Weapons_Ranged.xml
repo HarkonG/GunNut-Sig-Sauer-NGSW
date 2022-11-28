@@ -216,7 +216,7 @@
                     <defaultProjectile>Bullet_277Fury_FMJ</defaultProjectile>
                     <burstShotCount>10</burstShotCount>
                     <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-                    <warmupTime>1.425</warmupTime>
+                    <warmupTime>1.4</warmupTime>
                     <range>67</range>
                     <soundCast>HRK_Shot_SDSIGM5SPEAR</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
