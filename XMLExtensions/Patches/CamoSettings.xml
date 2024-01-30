@@ -9,7 +9,13 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_SIGM5SPEAR"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_SIGM5SPEAR/{SIGM5SPEAR_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_SIGM5SPEAR/{SIGM5SPEAR_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_SIGM5SPEAR"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_SIGM5SPEAR/{SIGM5SPEAR_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>
@@ -23,7 +29,13 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_SIGM5SPEAR_C"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_SIGM5SPEAR_C/{SIGM5SPEAR_C_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_SIGM5SPEAR_C/{SIGM5SPEAR_C_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_SIGM5SPEAR_C"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_SIGM5SPEAR_C/{SIGM5SPEAR_C_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>
@@ -37,7 +49,13 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_SIGM250SAW"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_SIGM250SAW/{SIGM250SAW_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_SIGM250SAW/{SIGM250SAW_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_SIGM250SAW"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_SIGM250SAW/{SIGM250SAW_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>
@@ -51,7 +69,13 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_SIGM250SAW_C"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_SIGM250SAW_C/{SIGM250SAW_C_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_SIGM250SAW_C/{SIGM250SAW_C_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_SIGM250SAW_C"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_SIGM250SAW_C/{SIGM250SAW_C_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>
@@ -65,7 +89,13 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_SIG338MG"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_SIG338MG/{SIG338MG_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_SIG338MG/{SIG338MG_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_SIG338MG"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_SIG338MG/{SIG338MG_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>
@@ -79,7 +109,13 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_SIG338MG_C"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Weapons/HRK_SIG338MG_C/{SIG338MG_C_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_SIG338MG_C/{SIG338MG_C_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_SIG338MG_C"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_SIG338MG_C/{SIG338MG_C_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>
